@@ -13,7 +13,8 @@ ul{
   font-family: Arial, sans-serif
   font-size: 16px;
   color: #333;
-  background-color: #f9f9f9;
+  margin: 1em 0;
+  background-color: none;
   border: 1px solid #ccc;
   padding: 12px;
   border-radius: 6px;
@@ -21,8 +22,11 @@ ul{
 }
 
 ul li{
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  padding: 0;
   line-height: 1.4;
+  background: none;
+  border: none;
 }
 
 figcaption {
